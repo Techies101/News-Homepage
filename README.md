@@ -53,6 +53,14 @@ Users should be able to:
 - I learned how HTML Semantics works
 - I learned new CSS property
 
+```javascript
+const btnEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
@@ -61,4 +69,5 @@ I want to continue focusing on using CSS Grid and Flexbox for future projects an
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/EyetecSolution)
+- Frontend Mentor - [@EyetecSolution](https://www.frontendmentor.io/profile/EyetecSolution)
+```
